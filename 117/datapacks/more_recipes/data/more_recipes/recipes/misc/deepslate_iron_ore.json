@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " X ",
+      "XYX",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "Y": {
+        "item": "minecraft:deepslate"
+      }
+    },
+    "result": {
+      "item": "minecraft:deepslate_iron_ore"
+    }
+  } 

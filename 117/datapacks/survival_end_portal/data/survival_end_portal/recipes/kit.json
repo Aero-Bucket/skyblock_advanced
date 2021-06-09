@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "YXY",
+    "#Y#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_chest"
+    },
+    "X": {
+      "item": "minecraft:minecart"
+    },
+    "Y": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_portal_frame",
+    "count": 13
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/obsidian",
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:block/angel_block"}
+    ]
+}

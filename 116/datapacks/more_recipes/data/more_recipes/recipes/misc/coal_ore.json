@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " X ",
+      "XYX",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:coal_block"
+      },
+      "Y": {
+        "item": "minecraft:stone"
+      }
+    },
+    "result": {
+      "item": "minecraft:coal_ore"
+    }
+  } 

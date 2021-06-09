@@ -1,0 +1,2 @@
+execute as @e[predicate=dripstone:stone,limit=1,nbt=!{Tags:["dripstone"]}] at @s if entity @e[predicate=dripstone:bone_meal,limit=1,distance=..1] run function dripstone:replace
+execute as @e[predicate=dripstone:stone,nbt={Tags:["dripstone"]}] at @s run function dripstone:age

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "XY",
+      "YX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:bubble_coral"
+      },
+      "Y": {
+        "item": "minecraft:bubble_coral_fan"
+      }
+    },
+    "result": {
+      "item": "minecraft:bubble_coral_block"
+    }
+  } 
+

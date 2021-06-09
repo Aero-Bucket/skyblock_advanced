@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_prismarine_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:prismarine_bricks"]
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "more_recipes:misc/prismarine_shard3"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_prismarine_bricks",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "more_recipes:misc/prismarine_shard3"
+        ]
+    }
+}

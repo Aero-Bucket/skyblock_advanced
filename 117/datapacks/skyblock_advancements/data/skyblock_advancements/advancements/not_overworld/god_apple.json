@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/end_city",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Designed In California"
+    },
+    "description": {
+      "text": "Find a God Apple From an End City Chest"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_enchanted_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:enchanted_golden_apple"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_enchanted_golden_apple"
+    ]
+  ]
+}

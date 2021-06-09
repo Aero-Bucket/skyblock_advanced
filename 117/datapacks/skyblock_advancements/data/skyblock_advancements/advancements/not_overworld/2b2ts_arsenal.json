@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/hot_pocket",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": {
+      "text": "2b2t's Arsenal"
+    },
+    "description": {
+      "text": "Get an End Crystal"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:end_crystal"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_end_crystal"
+    ]
+  ]
+}

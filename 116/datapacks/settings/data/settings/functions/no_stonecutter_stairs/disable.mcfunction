@@ -1,0 +1,4 @@
+execute store success score settings_dummy settings_success run datapack enable "file/no_stonecutter_stairs"
+execute if score settings_dummy settings_success matches 1 run tellraw @a ["",{"text":"Crafting Stairs From Stonecutter ","color":"yellow"},{"text":"Is Now ","color":"white"},{"text":"Disabled","color":"gold"}]
+execute if score settings_dummy settings_success matches 1 run function settings:no_stonecutter_stairs/take_recipe
+execute if score settings_dummy settings_success matches 0 run tellraw @p ["",{"text":"Crafting Stairs From Stonecutter ","color":"yellow"},{"text":"Is Disabled Already","color":"red"}]

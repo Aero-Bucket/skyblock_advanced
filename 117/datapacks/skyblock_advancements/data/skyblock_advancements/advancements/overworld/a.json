@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:overworld/turtle_egg",
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "text": "    a    "
+    },
+    "description": {
+      "text": "Get a Trident From Drowned"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:trident"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_trident"
+    ]
+  ]
+}

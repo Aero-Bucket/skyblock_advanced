@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/equivalent_exchange",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": {
+      "text": "Nether Gonna Gi..."
+    },
+    "description": {
+      "text": "Craft Netherrack"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherrack"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_netherrack"
+    ]
+  ]
+}

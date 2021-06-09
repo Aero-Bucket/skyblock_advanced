@@ -1,0 +1,1 @@
+execute as @a run execute as @s if score hd_dummy hd_dragonkill matches 1 run execute if entity @s[advancements={harder_dragon:hit_by_dragon=true}] run function harder_dragon:damage_sub

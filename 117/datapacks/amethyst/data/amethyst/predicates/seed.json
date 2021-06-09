@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "nbt": "{Item:{id:\"minecraft:paper\",tag:{CustomModelData:1,display:{Name:'[{\"text\":\"Amethyst Seed\",\"italic\":false}]',Lore:['[{\"text\":\"Submerge In Water To Grow\",\"italic\":false,\"color\":\"aqua\"}]']}}}}",
+    "location": {
+      "fluid": {
+        "fluid": "minecraft:water"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "skyblock_advancements:overworld/cure",
+  "display": {
+    "icon": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "text": "Arahnophobia"
+    },
+    "description": {
+      "text": "Kill a Cave Spider and a Silverfish"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecraft:cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:cave_spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "minecraft:silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:silverfish"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:cave_spider"
+    ],
+    [
+      "minecraft:silverfish"
+    ]
+  ]
+}

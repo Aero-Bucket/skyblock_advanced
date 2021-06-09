@@ -1,0 +1,29 @@
+{
+  "parent": "skyblock_advancements:overworld/mob_mob_meadows",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "Starting Life In Another World"
+    },
+    "description": {
+      "text": "Cure a Zombie Villager"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cured_zombie": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "cured_zombie"
+    ]
+  ]
+}

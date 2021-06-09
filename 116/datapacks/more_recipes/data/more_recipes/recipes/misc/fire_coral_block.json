@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "XY",
+      "YX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:fire_coral"
+      },
+      "Y": {
+        "item": "minecraft:fire_coral_fan"
+      }
+    },
+    "result": {
+      "item": "minecraft:fire_coral_block"
+    }
+  } 
+

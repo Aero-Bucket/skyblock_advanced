@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ender_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:ender_chest"
+					}
+				]
+			}
+		},
+		"has_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:minecart"
+					}
+				]
+			}
+		},
+		"has_end_crystal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:end_crystal"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "survival_end_portal:kit"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ender_chest",
+			"has_minecart",
+			"has_end_crystal",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"survival_end_portal:kit"
+		]
+	}
+}

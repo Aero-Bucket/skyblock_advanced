@@ -1,0 +1,88 @@
+{
+  "parent": "skyblock_advancements:husbandry/off_the_hook",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": {
+      "text": "Greta Thunberg & Friends"
+    },
+    "description": {
+      "text": "Get All The Saplings By Fishing In Different Biomes"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:oak_sapling"]
+        }
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:birch_sapling"]
+        }
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:acacia_sapling"]
+        }
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:dark_oak_sapling"]
+        }
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:jungle_sapling"]
+        }
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spruce_sapling"]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sapling"
+    ],
+    [
+      "birch_sapling"
+    ],
+    [
+      "acacia_sapling"
+    ],
+    [
+      "dark_oak_sapling"
+    ],
+    [
+      "jungle_sapling"
+    ],
+    [
+      "spruce_sapling"
+    ]
+  ]
+}

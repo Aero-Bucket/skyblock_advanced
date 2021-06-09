@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_prismarine_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:prismarine_stairs"
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:stairs2block/prismarine_stairs2block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_prismarine_stairs",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:stairs2block/prismarine_stairs2block"
+		]
+	}
+}

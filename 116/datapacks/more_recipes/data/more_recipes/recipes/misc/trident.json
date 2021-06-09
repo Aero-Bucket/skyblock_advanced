@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "111",
+        " 2 ",
+        " 3 "
+    ],
+    "key": {
+        "1": {
+            "item": "minecraft:iron_sword"
+        },
+        "2": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "3": {
+            "item": "minecraft:prismarine_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

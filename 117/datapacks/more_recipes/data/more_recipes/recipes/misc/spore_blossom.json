@@ -1,0 +1,17 @@
+{
+       "type": "crafting_shapeless",
+       "ingredients": [
+           {
+               "item": "minecraft:flowering_azalea"
+           },
+           {
+               "item": "minecraft:mycelium"
+           }
+       ],
+       "result": {
+           "item": "minecraft:spore_blossom",
+           "count": 1
+       }
+   }
+ 
+

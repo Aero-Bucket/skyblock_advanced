@@ -1,0 +1,90 @@
+{
+  "parent": "skyblock_advancements:husbandry/minecraft",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": {
+      "text": "Noah Get The Boat"
+    },
+    "description": {
+      "text": "Build a Passive Mob Farm and Slaughter Everything You See"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:cow"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "killed_pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pig"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "killed_sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:sheep"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "killed_chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:chicken"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_cow"
+    ],
+    [
+      "killed_pig"
+    ],
+    [
+      "killed_sheep"
+    ],
+    [
+      "killed_chicken"
+    ]
+  ]
+}

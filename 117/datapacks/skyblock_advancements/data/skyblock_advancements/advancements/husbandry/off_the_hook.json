@@ -1,0 +1,286 @@
+{
+  "parent": "skyblock_advancements:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Off The Hook"
+    },
+    "description": {
+      "text": "Fish Something"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cod"]
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:tropical_fish"]
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pufferfish"]
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:salmon"]
+        }
+      }
+    },
+    "potion": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"]
+        }
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:rotten_flesh"]
+        }
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:leather"]
+        }
+      }
+    },
+    "string": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:string"]
+        }
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stick"]
+        }
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:fishing_rod"]
+        }
+      }
+    },
+    "ink_sac": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:ink_sac"]
+        }
+      }
+    },
+    "bamboo": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:bamboo"]
+        }
+      }
+    },
+    "oak_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:oak_sapling"]
+        }
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:birch_sapling"]
+        }
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:acacia_sapling"]
+        }
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:dark_oak_sapling"]
+        }
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:jungle_sapling"]
+        }
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spruce_sapling"]
+        }
+      }
+    },
+    "kelp": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:kelp"]
+        }
+      }
+    },
+    "sea_pickle": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sea_pickle"]
+        }
+      }
+    },
+    "lily_pad": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:lily_pad"]
+        }
+      }
+    },
+    "small_dripleaf": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:small_dripleaf"]
+        }
+      }
+    },
+    "name_tag": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:name_tag"]
+        }
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:saddle"]
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:bow"]
+        }
+      }
+    },
+    "book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:book"]
+        }
+      }
+    },
+    "nautilus_shell": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:nautilus_shell"]
+        }
+      }
+    },
+    "diamond_ore": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:diamond_ore"]
+        }
+      }
+    },
+    "enchanted_book": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:enchanted_book"]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cod",
+      "tropical_fish",
+      "pufferfish",
+      "salmon",
+      "potion",
+      "rotten_flesh",
+      "leather",
+      "string",
+      "stick",
+      "fishing_rod",
+      "ink_sac",
+      "bamboo",
+      "oak_sapling",
+      "birch_sapling",
+      "acacia_sapling",
+      "dark_oak_sapling",
+      "jungle_sapling",
+      "spruce_sapling",
+      "kelp",
+      "sea_pickle",
+      "lily_pad",
+      "small_dripleaf",
+      "name_tag",
+      "saddle",
+      "bow",
+      "book",
+      "nautilus_shell",
+      "diamond_ore",
+      "enchanted_book"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "text": "Ya Like Jazz?"
+    },
+    "description": {
+      "text": "Get a Honeycomb"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:honeycomb"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_honeycomb"
+    ]
+  ]
+}

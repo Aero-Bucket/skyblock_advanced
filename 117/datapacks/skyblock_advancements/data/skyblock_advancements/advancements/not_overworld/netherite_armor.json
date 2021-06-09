@@ -1,0 +1,45 @@
+{
+  "parent": "skyblock_advancements:not_overworld/debris",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Dark Knight Returns"
+    },
+    "description": {
+      "text": "Wear a Full Set Of Netherite Armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_helmet"]
+          },
+          {
+            "items": ["minecraft:netherite_chestplate"]
+          },
+          {
+            "items": ["minecraft:netherite_leggings"]
+          },
+          {
+            "items": ["minecraft:netherite_boots"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ]
+}

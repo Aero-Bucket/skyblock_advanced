@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_smooth_red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:smooth_red_sandstone_slab"]
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:slab2block/smooth_red_sandstone_slab2block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_smooth_red_sandstone_slab",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:slab2block/smooth_red_sandstone_slab2block"
+		]
+	}
+}

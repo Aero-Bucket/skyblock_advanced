@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/netherrack",
+  "display": {
+    "icon": {
+      "item": "minecraft:ancient_debris"
+    },
+    "title": {
+      "text": "A Crunchy Roll"
+    },
+    "description": {
+      "text": "Smelt Red Nether Bricks to Get Ancient Debris"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:ancient_debris"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ancient_debris"
+    ]
+  ]
+}

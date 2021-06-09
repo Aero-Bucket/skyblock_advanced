@@ -1,0 +1,83 @@
+{
+  "parent": "skyblock_advancements:not_overworld/debris",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Serious Dedication"
+    },
+    "description": {
+      "text": "Make a Netherite Hoe and Enchant It to the Max"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_hoe_silk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_hoe"],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending",
+                "levels": 1
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "netherite_hoe_fortune": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_hoe"],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending",
+                "levels": 1
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_hoe_silk",
+      "netherite_hoe_fortune"
+    ]
+  ]
+}

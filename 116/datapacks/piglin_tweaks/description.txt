@@ -1,0 +1,17 @@
+Piglin Trade:
+- nether brick
+- fire resistance potions
+- spectral arrow
+- enchanted iron boots
+- quartz
+- fire charge
++ lava bucket
++ nether wart
++ quartz ore
+
+Increased drop rate of golden nuggets (Zombified Piglin)
+
+All variants of piglin drop gold
+
+Throw strength II potion at piglin to convert it to piglin brute
+Piglin brutes drop pigstep when killed by skeleton

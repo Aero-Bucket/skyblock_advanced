@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dark_prismarine_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:dark_prismarine_slab"]
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:slab2block/dark_prismarine_slab2block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dark_prismarine_slab",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:slab2block/dark_prismarine_slab2block"
+		]
+	}
+}

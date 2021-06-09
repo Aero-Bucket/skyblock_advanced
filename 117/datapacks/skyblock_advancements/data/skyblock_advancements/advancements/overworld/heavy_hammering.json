@@ -1,0 +1,56 @@
+{
+  "parent": "skyblock_advancements:overworld/poseidons_vault",
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "text": "Heavy Hammering"
+    },
+    "description": {
+      "text": "Strike a Guardian With Lightning and Kill It"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "struck_guardian": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "type": "minecraft:guardian"
+              },
+              "entity": "this"
+            }
+          ]
+        ]
+      }
+    },
+    "kill_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:elder_guardian"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "struck_guardian",
+      "kill_elder_guardian"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/hot_pocket",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "text": "Copyright Strike"
+    },
+    "description": {
+      "text": "Get a Pigstep Music Disc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_music_disc_pigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:music_disc_pigstep"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_music_disc_pigstep"
+    ]
+  ]
+}

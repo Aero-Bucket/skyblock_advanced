@@ -1,0 +1,17 @@
+{
+       "type": "crafting_shapeless",
+       "ingredients": [
+           {
+               "item": "minecraft:andesite"
+           },
+           {
+               "item": "minecraft:coal"
+           }
+       ],
+       "result": {
+           "item": "minecraft:tuff",
+           "count": 2
+       }
+   }
+ 
+

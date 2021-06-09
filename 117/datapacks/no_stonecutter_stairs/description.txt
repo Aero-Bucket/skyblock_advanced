@@ -1,0 +1,2 @@
+Disable Stair Crafting Via Stonecutter By Removing Recipe Rewards From Vanilla Advancements
+Recipes Still Obtainable Via Commands

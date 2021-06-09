@@ -1,0 +1,39 @@
+{
+  "parent": "skyblock_advancements:not_overworld/kill_dragon",
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": {
+      "text": "Dragon Pro Max Ultra"
+    },
+    "description": {
+      "text": "Respawn the Ender Dragon, Good Luck Beating It"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "summoned_dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "parent": "skyblock_advancements:overworld/what_a_scam",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_ore"
+    },
+    "title": {
+      "text": "Finally, I Have Them All"
+    },
+    "description": {
+      "text": "Obtain All Ores"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_ore"
+          }
+        ]
+      }
+    },
+    "get_iron_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ore"
+          }
+        ]
+      }
+    },
+    "get_coal_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coal_ore"
+          }
+        ]
+      }
+    },
+    "get_nether_gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_gold_ore"
+          }
+        ]
+      }
+    },
+    "get_lapis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_ore"
+          }
+        ]
+      }
+    },
+    "get_diamond_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_ore"
+          }
+        ]
+      }
+    },
+    "get_redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone_ore"
+          }
+        ]
+      }
+    },
+    "get_emerald_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald_ore"
+          }
+        ]
+      }
+    },
+    "get_nether_quartz_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_gold_ore"
+    ],
+    [
+      "get_iron_ore"
+    ],
+    [
+      "get_coal_ore"
+    ],
+    [
+      "get_nether_gold_ore"
+    ],
+    [
+      "get_lapis_ore"
+    ],
+    [
+      "get_diamond_ore"
+    ],
+    [
+      "get_redstone_ore"
+    ],
+    [
+      "get_emerald_ore"
+    ],
+    [
+      "get_nether_quartz_ore"
+    ]
+  ]
+}

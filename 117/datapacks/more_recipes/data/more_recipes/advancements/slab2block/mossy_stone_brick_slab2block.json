@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_mossy_stone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:mossy_stone_brick_slab"]
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:slab2block/mossy_stone_brick_slab2block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_mossy_stone_brick_slab",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:slab2block/mossy_stone_brick_slab2block"
+		]
+	}
+}

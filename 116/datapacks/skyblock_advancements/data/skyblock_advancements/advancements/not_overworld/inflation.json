@@ -1,0 +1,36 @@
+{
+  "parent": "skyblock_advancements:not_overworld/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": {
+      "text": "Inflation"
+    },
+    "description": {
+      "text": "Build a Gold Farm and Get a Stack of Gold Nugget"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_gold_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_nugget",
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_gold_nugget"
+    ]
+  ]
+}

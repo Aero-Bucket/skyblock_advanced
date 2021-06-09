@@ -1,0 +1,3 @@
+guardians convert to elder guardian when struck by lightning.
+elder guardians drop heart of the sea
+guardians drop sponge on player kill

@@ -1,0 +1,4 @@
+execute if score @s sep_direction matches 0 run execute as @e[name="portalbuilderf76dhb",type=minecraft:rabbit] run function survival_end_portal:north
+execute if score @s sep_direction matches 1 run execute as @e[name="portalbuilderf76dhb",type=minecraft:rabbit] run function survival_end_portal:east
+execute if score @s sep_direction matches 2 run execute as @e[name="portalbuilderf76dhb",type=minecraft:rabbit] run function survival_end_portal:south
+execute if score @s sep_direction matches 3 run execute as @e[name="portalbuilderf76dhb",type=minecraft:rabbit] run function survival_end_portal:west

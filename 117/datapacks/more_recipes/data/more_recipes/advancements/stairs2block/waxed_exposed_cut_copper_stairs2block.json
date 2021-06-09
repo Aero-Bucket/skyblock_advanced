@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_waxed_exposed_cut_copper_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:waxed_exposed_cut_copper_stairs"]
+					}
+				]
+			}
+		},
+        "has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:stairs2block/waxed_exposed_cut_copper_stairs2block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_waxed_exposed_cut_copper_stairs",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:stairs2block/waxed_exposed_cut_copper_stairs2block"
+		]
+	}
+}

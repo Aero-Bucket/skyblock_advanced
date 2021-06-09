@@ -1,0 +1,1 @@
+execute if predicate underwater_channeling:thunder as @e[predicate=underwater_channeling:trident,nbt={DealtDamage:1b,Trident:{tag:{Enchantments:[{id:"minecraft:channeling",lvl:1s}]}}}] at @s run function underwater_channeling:lightning

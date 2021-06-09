@@ -1,0 +1,36 @@
+{
+  "parent": "skyblock_advancements:overworld/dr_stone",
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": {
+      "text": "Mob Mob Meadows"
+    },
+    "description": {
+      "text": "Build a Mob Farm and Get a Stack of Bone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:bone"],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_bone"
+    ]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "skyblock_advancements:not_overworld/fortress",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "text": "explorer.exe"
+    },
+    "description": {
+      "text": "Touch The World Border(10000 Blocks From Origin)"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "border_x_pos": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 9999
+          }
+        }
+      }
+    },
+    "border_x_neg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "max": -9999
+          }
+        }
+      }
+    },
+    "border_z_pos": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "min": 9999
+          }
+        }
+      }
+    },
+    "border_z_neg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "z": {
+            "max": -9999
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "border_x_pos",
+      "border_x_neg",
+      "border_z_pos",
+      "border_z_neg"
+  ]
+]
+}

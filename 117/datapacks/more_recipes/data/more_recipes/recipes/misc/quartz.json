@@ -1,0 +1,13 @@
+{
+       "type": "crafting_shapeless",
+       "ingredients": [
+        {
+            "tag": "more_recipes:quartz_block"
+        }
+    ],
+       "result": {
+           "item": "minecraft:quartz",
+           "count": 4
+       }
+   } 
+ 

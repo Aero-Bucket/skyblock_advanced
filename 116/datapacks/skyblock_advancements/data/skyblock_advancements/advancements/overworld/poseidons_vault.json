@@ -1,0 +1,33 @@
+{
+  "parent": "skyblock_advancements:overworld/subnautica",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": {
+      "text": "Poseidon's Vault"
+    },
+    "description": {
+      "text": "Visit the Non-Existent Ocean Monument"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "monument"
+    ]
+  ]
+}

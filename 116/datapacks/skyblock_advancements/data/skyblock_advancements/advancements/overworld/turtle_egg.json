@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:overworld/subnautica",
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_egg"
+    },
+    "title": {
+      "text": "Birth of Squirt"
+    },
+    "description": {
+      "text": "Kill Drowneds and Get Turtle Eggs"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_turtle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:turtle_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_turtle_egg"
+    ]
+  ]
+}

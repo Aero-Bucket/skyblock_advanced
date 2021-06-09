@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:not_overworld/fortress",
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "title": {
+      "text": "Hot Pocket"
+    },
+    "description": {
+      "text": "Get a Blaze Rod"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:blaze_rod"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_blaze_rod"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "get_hit": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:ender_dragon"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "get_hit"
+        ]
+    ],
+    "rewards": {
+        "function": "harder_dragon:damage"
+    }
+}

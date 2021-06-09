@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:red_nether_bricks"
+  },
+  "result": "minecraft:ancient_debris",
+  "experience": 0.7,
+  "cookingtime": 100
+}

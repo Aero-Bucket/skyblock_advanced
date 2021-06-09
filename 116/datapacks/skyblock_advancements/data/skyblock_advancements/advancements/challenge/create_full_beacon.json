@@ -1,0 +1,31 @@
+{
+  "parent": "skyblock_advancements:challenge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Beaconator"
+    },
+    "description": {
+      "text": "Build a Full Beacon"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": 4
+      }
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ]
+}

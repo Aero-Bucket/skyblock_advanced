@@ -1,0 +1,28 @@
+New Recipes:
+(Shaped)        2 Slab >> 1 Original Block
+(Shaped)        4 Stairs >> 3 Original Blocks
+(Shaped)        6 Blocks >> 8 Stairs
+(Shaped)        Chain >> Chainmail Armor
+(Shaped)        8 Wood Log >> 4 Chests
+(Shaped)        2 Wood Log >> 16 Sticks
+(Shaped)        6 Planks >> 6 Trapdoors
+(Shapeless)     1 Clay Block >> 4 Clay Ball
+(Shapeless)     1 Sand + 1 Ice >> 1 Clay Block
+(Shaped)        5 String >> 1 Cobweb
+(Shapeless)     3 Gravel >> 1 Flint
+(Shapeless)     1 Blue Ice >> 9 Packed Ice
+(Shapeless)     1 Packed Ice >> 9 Ice
+(Shapeless)     1 Any Variant Of Quartz Block >> 4 Quartz
+(Shaped)        8 Sand + Rose Red >> 8 Red Sand
+(Shapeless)     2 Sandstone + Rose Red >> 2 Red Sandstone
+(Shaped)        3 Iron Sword + 1 Heart of the Sea + 1 Prismarine Shard >> 1 Trident
+(Smelting)      1 Red Nether Bricks >> 1 Ancient Debris
+(Shapeless)     1 Blackstone + 1 Nether Wart + 1 Gravel + 1 Soul Sand >> 4 Netherrack
+(Shaped)        2 Coral + 2 Coral Fan >> 1 Coral Block
+(Shapeless)     2 Small Flower + 1 Grass >> 1 Tall Flower
+(Shaped)        4 Mineral/Mineral Block >> 1 Ore
+(Shaped)        1 Grass + 1 Dirt >> 1 Grass Block
+(Shapeless)     1 Soul Sand + 1 Dirt >> 1 Soul Soil
+(Shapeless)     1 Paper + 1 Pigstep >> Snout Banner Pattern
+(Shapeless)     1 Red Mushroom + 1 Brown Mushroom + 1 Podzol >> 1 Mycelium
+(Shapeless)     1 Root + 1 Netherrack >> 1 Nylium

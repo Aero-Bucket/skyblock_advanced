@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:overworld/mob_mob_meadows",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "text": "Kinda Boring"
+    },
+    "description": {
+      "text": "Get Sand From Husks"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:sand"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_sand"
+    ]
+  ]
+}

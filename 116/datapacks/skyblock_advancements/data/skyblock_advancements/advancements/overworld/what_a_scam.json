@@ -1,0 +1,29 @@
+{
+  "parent": "skyblock_advancements:overworld/cure",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "text": "What a Scam!"
+    },
+    "description": {
+      "text": "Trade With a Villager"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ]
+}

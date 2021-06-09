@@ -1,0 +1,33 @@
+{
+  "parent": "skyblock_advancements:not_overworld/kill_dragon",
+  "display": {
+    "icon": {
+      "item": "minecraft:purpur_block"
+    },
+    "title": {
+      "text": "Infinity Wars"
+    },
+    "description": {
+      "text": "Visit an End City"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "in_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endcity"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_city"
+    ]
+  ]
+}

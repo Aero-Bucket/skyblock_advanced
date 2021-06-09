@@ -1,0 +1,243 @@
+{
+  "parent": "skyblock_advancements:husbandry/ya_like_jazz",
+  "display": {
+    "icon": {
+      "item": "minecraft:sunflower"
+    },
+    "title": {
+      "text": "5cm/s"
+    },
+    "description": {
+      "text": "Get All the Flowers"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_dandelion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:dandelion"]
+          }
+        ]
+      }
+    },
+    "get_poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:poppy"]
+          }
+        ]
+      }
+    },
+    "get_blue_orchid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:blue_orchid"]
+          }
+        ]
+      }
+    },
+    "get_allium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:allium"]
+          }
+        ]
+      }
+    },
+    "get_azure_bluet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:azure_bluet"]
+          }
+        ]
+      }
+    },
+    "get_red_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:red_tulip"]
+          }
+        ]
+      }
+    },
+    "get_orange_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:orange_tulip"]
+          }
+        ]
+      }
+    },
+    "get_white_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:white_tulip"]
+          }
+        ]
+      }
+    },
+    "get_pink_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:pink_tulip"]
+          }
+        ]
+      }
+    },
+    "get_oxeye_daisy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:oxeye_daisy"]
+          }
+        ]
+      }
+    },
+    "get_cornflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cornflower"]
+          }
+        ]
+      }
+    },
+    "get_lily_of_the_valley": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lily_of_the_valley"]
+          }
+        ]
+      }
+    },
+    "get_wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:wither_rose"]
+          }
+        ]
+      }
+    },
+    "get_sunflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:sunflower"]
+          }
+        ]
+      }
+    },
+    "get_lilac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lilac"]
+          }
+        ]
+      }
+    },
+    "get_rose_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:rose_bush"]
+          }
+        ]
+      }
+    },
+    "get_peony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:peony"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_dandelion"
+    ],
+    [
+      "get_poppy"
+    ],
+    [
+      "get_blue_orchid"
+    ],
+    [
+      "get_allium"
+    ],
+    [
+      "get_azure_bluet"
+    ],
+    [
+      "get_red_tulip"
+    ],
+    [
+      "get_orange_tulip"
+    ],
+    [
+      "get_white_tulip"
+    ],
+    [
+      "get_pink_tulip"
+    ],
+    [
+      "get_oxeye_daisy"
+    ],
+    [
+      "get_cornflower"
+    ],
+    [
+      "get_lily_of_the_valley"
+    ],
+    [
+      "get_wither_rose"
+    ],
+    [
+      "get_sunflower"
+    ],
+    [
+      "get_lilac"
+    ],
+    [
+      "get_rose_bush"
+    ],
+    [
+      "get_peony"
+    ]
+  ]
+}

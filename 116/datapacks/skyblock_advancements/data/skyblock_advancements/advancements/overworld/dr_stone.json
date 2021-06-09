@@ -1,0 +1,35 @@
+{
+  "parent": "skyblock_advancements:overworld/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": {
+      "text": "Dr. Stone"
+    },
+    "description": {
+      "text": "Get Some Cobblestone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_cobblestone"
+    ]
+  ]
+}

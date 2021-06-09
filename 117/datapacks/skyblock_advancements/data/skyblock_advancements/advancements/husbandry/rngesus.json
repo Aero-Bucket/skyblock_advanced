@@ -1,0 +1,33 @@
+{
+  "parent": "skyblock_advancements:husbandry/off_the_hook",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_ore"
+    },
+    "title": {
+      "text": "RNGesus"
+    },
+    "description": {
+      "text": "Fish a Diamond Ore"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_ore": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:diamond_ore"]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_ore"
+    ]
+  ]
+}

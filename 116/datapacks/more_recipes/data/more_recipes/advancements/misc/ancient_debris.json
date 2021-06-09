@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_red_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_nether_bricks"
+					}
+				]
+			}
+		},
+		"has_the_recipe_furnace": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:misc/ancient_debris_furnace"
+			}
+		},
+        "has_the_recipe_blast": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "more_recipes:misc/ancient_debris_blast"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_nether_bricks",
+			"has_the_recipe_furnace",
+			"has_the_recipe_blast"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"more_recipes:misc/ancient_debris_furnace",
+            "more_recipes:misc/ancient_debris_blast"
+		]
+	}
+}

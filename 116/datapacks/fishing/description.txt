@@ -1,0 +1,14 @@
+Fishing:
+- leather boots
+- bone
+- bowl
++ oak sapling (mountain/forest/plain/jungle/savanna/wooded)
++ birch sapling (plain/forest)
++ acacia sapling (savanna)
++ dark oak sapling (forest/dark oak forest)
++ jungle sapling (jungle)
++ spruce sapling (taiga/snowy/mountain)
++ diamond ore (1/620 chance)
++ kelp (lukewarm/normal ocean)
++ lily pad (swamp)
++ sea pickle (warm ocean)
